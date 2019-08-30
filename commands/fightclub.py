@@ -8,7 +8,7 @@ class FightClubCog(commands.Cog):
 
         @commands.command(name='fight', description='Auto sorts players for private pvp. !fight <player1 player2 ect...')
         @commands.guild_only()
-        async def sort_fighters(players : str):
+        async def sort_fighters(ctx, players: str):
             return
 
 

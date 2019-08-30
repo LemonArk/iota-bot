@@ -15,7 +15,7 @@ def get_prefix(bot, message):
 
 
 initial_extensions = ['commands.members',
-                      # 'Commands.fightclub',
+                      'Commands.fightclub',
                       ]
 
 bot = commands.Bot(command_prefix=get_prefix, description='A Rewrite Cog Example')
@@ -24,6 +24,10 @@ if __name__ == '__main__':
     for extension in initial_extensions:
         bot.load_extension(extension)
 
+ async def on_message(self, message):
+     # we do not want the bot to reply to itself
+    if message.author.id == self.user.id:
+        return
 
 @bot.event
 async def on_ready():
@@ -35,4 +39,4 @@ async def on_ready():
     print(f'Successfully logged in and booted...!')
 
 
-bot.run('TOKEN', bot=True, reconnect=True)
+bot.run(TOKEN, bot=True, reconnect=True)
