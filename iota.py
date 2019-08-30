@@ -4,7 +4,7 @@ import random
 from discord.ext import commands, tasks
 
 
-TOKEN = "NjE1OTcyMjg2MTU5MjU3NjIx.XWiEQA.y3KCj4GkKELSpf-gZZrG7tFYzAc"
+TOKEN = "NjE1OTcyMjg2MTU5MjU3NjIx.XWmvCA.SlC8-CkFHNu9uvSumSVUrcV57Zw"
 
 client = commands.Bot(command_prefix='!!')
 #TODO udate prefixes to a variable and then check server id for server custom prefixes
