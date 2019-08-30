@@ -8,9 +8,6 @@ class Reply(commands.Cog):
     def _init_(self, client):
         self.client = client
 
-    @commands.Cog.listener()
-    async def on_ready(self):
-         print('Bot is online.')
 
     @commands.command(
         name='ping',
