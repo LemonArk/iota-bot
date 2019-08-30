@@ -24,10 +24,13 @@ if __name__ == '__main__':
     for extension in initial_extensions:
         bot.load_extension(extension)
 
- async def on_message(self, message):
-     # we do not want the bot to reply to itself
+
+@bot.event
+async def on_message(self, message):
+    # we do not want the bot to reply to itself
     if message.author.id == self.user.id:
         return
+
 
 @bot.event
 async def on_ready():
