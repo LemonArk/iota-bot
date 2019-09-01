@@ -24,7 +24,7 @@ Please make sure you add the new config.yaml file to the .gitignore list if you 
 ## Discord.py
 
 Discord.py is a library for using the discord api within python. This bot follows the latest re-write release.py
-You can find their github page here:
+You can find their github page here:https://github.com/Rapptz/discord.py
 
 To install the library simply use `pip install discord.py`
 
