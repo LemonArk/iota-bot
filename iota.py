@@ -1,10 +1,17 @@
 import discord
 import os
 import random
+import yaml
 from discord.ext import commands, tasks
 
 
-TOKEN = "NjE1OTcyMjg2MTU5MjU3NjIx.XWmvCA.SlC8-CkFHNu9uvSumSVUrcV57Zw"
+# import token from config file
+with open("config.yaml", 'r') as stream:
+    try:
+        yaml_data = yaml.safe_load(stream)
+        TOKEN = yaml_data['TOKEN']
+    except yaml.YAMLError as exec:
+        print(exec)
 
 client = commands.Bot(command_prefix='!!')
 #TODO udate prefixes to a variable and then check server id for server custom prefixes

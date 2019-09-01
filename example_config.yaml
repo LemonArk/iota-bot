@@ -1,0 +1,13 @@
+# Yaml file for loading configuration information for the bot
+# Please note this is just an example file
+# In order to make use of this file simply replace "TOKEN_GOES_HERE" with your bots token
+# Then save the file as new, config.yaml
+# To ensure safety of your bots token, never upload config.yaml to your git repo.
+
+# This file is capable of facilitating any info you need to map to a variable within iota.py
+# Simply add a new map "  var: somedata
+# Then add a new map line in the try stream, line 9-14
+# varincode = yaml_data['var']
+
+
+TOKEN: TOKEN_GOES_HERE
