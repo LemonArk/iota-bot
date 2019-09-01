@@ -1,4 +1,6 @@
 # Yaml file for loading configuration information for the bot
+# The PYYAML module is required for this file to work
+# pip3 install pyyaml
 # Please note this is just an example file
 # In order to make use of this file simply replace "TOKEN_GOES_HERE" with your bots token
 # Then save the file as new, config.yaml
