@@ -34,6 +34,7 @@ class Pvp(commands.Cog):
 
         embed = discord.Embed(title=random.choice(title), colour=0x6262ff)
         embed.add_field(name="Red Team", value=f'\n {red_team}')
+        embed.add_field(value=' -  ╔════════╗  -\n-  ║   VS   ║  -\n-  ╚════════╝  -')
         embed.add_field(name="Blue Team", value=f'\n {blue_team}')
 
         await ctx.send(content=None, embed=embed)
@@ -41,3 +42,7 @@ class Pvp(commands.Cog):
 
 def setup(client):
     client.add_cog(Pvp(client))
+
+
+
+
