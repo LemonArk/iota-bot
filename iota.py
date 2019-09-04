@@ -64,6 +64,8 @@ status = [
     ]
 
 
+
+
 @client.event
 async def on_ready():
     change_status.start()
