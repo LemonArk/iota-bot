@@ -1,2 +1,6 @@
 #config files
 config.json
+
+
+#folders
+node_modules
