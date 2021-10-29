@@ -1,6 +1,5 @@
-#config files
-config.json
-
+#setup files
+.env
 
 #folders
 node_modules
