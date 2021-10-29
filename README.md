@@ -1,5 +1,10 @@
-# Lemonbot
+# Iota-Bot
 
-Original Java Script iota bot. 
+## A bot created to facilitate the custom needs of the Fight the Past Discord server.
 
-Now depreciated in favor of Python and discord.py libraries. 
+Written with the Discord.js libraries
+
+# Work in Progress
+
+
+
